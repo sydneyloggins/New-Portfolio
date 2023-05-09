@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+body {
+    font-family: poppins;
+    background-color: #222831;
+    color: #eeeeee;
+    
+
+}
+
+.nav-item  {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #7f8183;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+section {
+    min-height: 70vh;
+}
+h1 {
+    color:#80c5e0;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+h2 {
+    color: #80c5e0;
+}
+.name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+    
+}
+
+.avatar-img {
+    
+    border-radius: 18%;
+}
+
+p {
+   
+    font-size: large;
+}
+
+.btn {
+    margin-top: 20px;
+    color: #80c5e0; 
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: large;
+    max-width: 40%;
+    
+}
+
+.my-skills-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+    font-size: large;
+    max-width: 40%;
+    
+}
+.about-skills-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+
+.portfolio-title {
+    margin-top: 4rem;
+    margin-left: 10rem;
+   
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.card {
+    max-width: 20rem;
+    margin: 0 1rem;
+    cursor: pointer;
+   
+}
+
+.card-img {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    cursor: pointer;
+    opacity: .8;
+   
+    
+}
+
+.card-img:hover {
+    opacity: 1;
+    transition: .3s all ease-in-out;
+
+}
+
+.card-img-overlay {
+   position: relative;
+   padding: 20px;
+}
+
+#contact-title {
+    margin-top: 4rem;
+    margin-left: 10rem;
+   
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: large;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: column 
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: large;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .name-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .my-skills-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .about-skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills {
+        flex-direction: row;
+        align-items: center;
+    }
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .singleCol {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .name-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .my-skills-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .singleCol {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
